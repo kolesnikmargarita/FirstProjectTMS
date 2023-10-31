@@ -1,0 +1,6 @@
+insert into clients (firstName, lastName, passportNumber) value ('Mariya', 'Alay', 'GH1234567'),
+('Ekaterina', 'Zolotar', 'TS7654321'), ('Alexandr', 'Shpudeyko', 'WF5678321'), ('Alexey', 'Demyanenko', 'UT6738432');
+
+insert into accounts (clientId, number, openDate, type, currency, money) value (1, '12345-67890', '2023-10-27', 'депозитный', 'BYN', 300.45),
+(2, '67563-56735', '2023-10-25', 'депозитный', 'EUR', 200), (3, '87589-54345', '2023-10-27', 'депозитный', 'BYN', 0),
+(4, '98597-54588', '2023-10-24', 'депозитный', 'BYN', 78.54)
